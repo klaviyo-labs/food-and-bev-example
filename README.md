@@ -1,6 +1,6 @@
-# Repo Name 
+# Food and beverage example
 
-What does your repo do
+This repo contains code for key events in the food and beverage industry. 
 
 ## Important disclaimer
 All code samples in this repository show examples of how to accomplish certain use cases. We will use our best effort to maintain these examples, but occasionally some items may break. If you notice a broken code sample, please open an issue to let us know something is broken, or alternatively submit a PR with a proposed fix.
