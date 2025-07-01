@@ -277,7 +277,7 @@ await eventsApi.createEvent(cancelledReservationPayload)
   });
 
 /*
-create No Show Reservation event.
+create No Showed Reservation event.
 
 This event occurs when a guest is not checked in for their reservation at the restaurant after the specified reservation time.
 */
@@ -314,7 +314,7 @@ const noShowReservationPayload = {
         data: {
           type: "metric",
           attributes: {
-            name: "No Show Reservation"
+            name: "No Showed Reservation"
           }
         }
       },
@@ -333,8 +333,8 @@ const noShowReservationPayload = {
 // create the No Show Reservation event
 await eventsApi.createEvent(noShowReservationPayload)
   .then(response => {
-    console.log('No Show Reservation event created successfully:', response.data);
+    console.log('No Showed Reservation event created successfully:', response.data);
   })
   .catch(error => {
-    console.error('Error creating No Show Reservation event:', error);
+    console.error('Error creating No Showed Reservation event:', error);
   });
