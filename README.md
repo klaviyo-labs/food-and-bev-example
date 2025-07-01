@@ -7,44 +7,46 @@ All code samples in this repository show examples of how to accomplish certain u
 
 ## Version
 
-* SDK type & version number
-* API revision
+* Klaviyo Typescript SDK version 18.0.0
+* API revision 2025-04-15
 
 ## What you'll learn
 
-* feature1
-* feature2
+How to structure key events for food and beverage integrations. We provide the following example events for these kinds of integrations:
+
+* Online ordering
+  * Placed Order
+  * Ordered Product
+  * Fulfilled Order
+  * Refunded Order
+  * Closed Order
+  * Adjusted Order
+  * Cancelled Order
+* Reservations
+  * Created Reservation
+  * Confirmed Reservation
+  * Completed Reservation
+  * Cancelled Reservation
+  * No Showed Reservation
+* Loyalty
+  * Signed Up for Loyalty Program
+  * Created Loyalty Redemption
+  * Updated Loyalty Redemption
+  * Applied Loyalty Redemption
+  * Checked In to Loyalty Program
+  * Earned Loyalty Reward
+  * Converted Loyalty Points
+  * Completed Loyalty Card
 
 ## Limitations
 
-* limitation1
-* limitation2
+These example events are written in JavaScript using our server-side Create Event endpoint. They do not represent a real integration; rather, they are just example code snippets you can customize or use for reference within an actual integration.
 
 ## Klaviyo features + endpoints used
 
-* feature1 : description1
-* feature2 : description2
-
-## Installation
-
-* step1
-* step2
-
-## Testing
-
-* step1
-* step2
+* [Create Event endpoint](https://developers.klaviyo.com/en/reference/create_event)
 
 ## Usage
 
-Example usage here
-
-## FAQ
-
-Q: Question1?
-
-A: Answer1.
-
-
-
-
+Clone this repository, then locate the appropriate file (online ordering, reservations, or loyalty) in the src folder based on the type of integration you are building. 
+Each file contains a list of events that are relevant to that type of integration. Use these events for reference as you build out your integration.
