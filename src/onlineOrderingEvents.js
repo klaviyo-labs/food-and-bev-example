@@ -1,3 +1,14 @@
+/*
+Online Ordering Events Example
+
+Below are examples of the most common events coming from Online Ordering integrations.
+Note that not all of these events are necessary and you can add additional ones for your use case.
+
+Helpful resources:
+- https://developers.klaviyo.com/en/docs/guide_to_integrating_a_business_with_brick_and_mortar_locations
+- https://developers.klaviyo.com/en/reference/events_api_overview 
+*/
+
 import { ApiKeySession, EventsApi } from 'klaviyo-api';
 
 // Load private API key as an environment variable. Note that this API key needs to have write access to events.
