@@ -40,11 +40,13 @@ How to structure key events for food and beverage integrations. We provide the f
 
 ## Limitations
 
-These example events are written in JavaScript using our server-side Create Event endpoint. They do not represent a real integration; rather, they are just example code snippets you can customize or use for reference within an actual integration.
+These example events are written in JavaScript using our server-side Create Event endpoint. They do not represent a real integration; rather, they are just example code snippets you can customize or use for reference when building an actual integration.
+We do our best to make sure any code and API references are accurate and current when this is published, but you might need to update code and it’s always a best practice to leverage our [latest API versions](https://developers.klaviyo.com/en/reference/api_overview). If you have questions, feel free to hop over to our [Developer Community](https://community.klaviyo.com/groups/developer-group-64).
 
 ## Klaviyo features + endpoints used
 
 * [Create Event endpoint](https://developers.klaviyo.com/en/reference/create_event)
+* [Node SDK](https://github.com/klaviyo/klaviyo-api-node)
 
 ## Usage
 
